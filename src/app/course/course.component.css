@@ -1,0 +1,18 @@
+h1{
+    color: brown;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    padding: 10% 30% 20% 30%;
+}
+
+.card{
+    padding: 10%;
+    box-shadow: cornflowerblue;
+    box-sizing: border-box;
+    /* background-color: burlywood; */
+}
