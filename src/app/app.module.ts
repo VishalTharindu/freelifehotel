@@ -29,6 +29,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavLinkComponent } from './navigation/sidenav-link/sidenav-link.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
     BrowserAnimationsModule,
     MeterialModule,
     AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [
     CourselistService
