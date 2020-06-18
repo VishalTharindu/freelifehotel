@@ -1,19 +1,16 @@
+<mat-sidenav-container>
+  
+  <mat-sidenav #sidenav>
+    <app-sidenav-link (closeSideNavigation) = "sidenav.close()"></app-sidenav-link>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <app-header (SideNavigationToggle) = "sidenav.toggle()"></app-header>
+    <app-navtabs></app-navtabs>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
 <router-outlet></router-outlet>
-<mat-slider></mat-slider>
-<mat-card class="example-card">
-  <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>Angular</mat-card-title>
-    <mat-card-subtitle>Crash Course</mat-card-subtitle>
-  </mat-card-header>
-  <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-  <mat-card-content>
-    <app-course></app-course>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-  </mat-card-actions>
-</mat-card>
+
 
 
