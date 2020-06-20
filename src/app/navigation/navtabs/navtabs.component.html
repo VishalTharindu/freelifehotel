@@ -1,11 +1,51 @@
-<nav mat-tab-navbar>
-    <mat-tab-group>
-        <mat-tab label="Hello 1"></mat-tab>
-        <mat-tab label="Hello 1"></mat-tab>
-        <mat-tab label="Hello 1"></mat-tab>
-        <mat-tab label="Hello 1"></mat-tab>
-        <mat-tab label="Hello 1"></mat-tab>
-        <mat-tab label="Hello 1"></mat-tab>
-        <mat-tab label="Hello 1"></mat-tab>
-    </mat-tab-group>
-</nav>
+<div class="navtab-container">
+    <nav mat-tab-nav-bar>
+        <a mat-tab-link
+        routerLink = "/"
+        routerLinkActive #home="routerLinkActive"
+        [active]="home.isActive"
+        >
+            Home
+        </a>
+
+        <a mat-tab-link
+        routerLink = "/accomodation"
+        routerLinkActive #accomodation="routerLinkActive"
+        [active]="accomodation.isActive"
+        >
+            Accomodation
+        </a>
+
+        <a mat-tab-link
+        routerLink = "/foodbaverage"
+        routerLinkActive #foodbaverage="routerLinkActive"
+        [active]="foodbaverage.isActive"
+        >
+            Food&Baverage
+        </a>
+
+        <a mat-tab-link
+        routerLink = "/lifestyle"
+        routerLinkActive #lifestyle="routerLinkActive"
+        [active]="lifestyle.isActive"
+        >
+        Life Style
+        </a>
+
+        <a mat-tab-link
+        routerLink = "/celebration"
+        routerLinkActive #celebration="routerLinkActive"
+        [active]="celebration.isActive"
+        >
+            Celebration
+        </a>
+
+        <a mat-tab-link
+        routerLink = "/offers"
+        routerLinkActive #offers="routerLinkActive"
+        [active]="offers.isActive"
+        >
+            Offers
+        </a>
+    </nav>
+</div>

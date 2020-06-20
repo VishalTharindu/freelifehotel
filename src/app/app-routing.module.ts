@@ -9,17 +9,20 @@ import { WeddingComponent } from './wedding/wedding.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { HomeComponent } from './home/home.component';
+import { ImagesliderComponent } from './home/imageslider/imageslider.component';
 
 
 const routes: Routes = [
   {path: 'accomodation', component: AccomodationComponent},
   {path: 'celebration', component: CelebrationComponent},
   {path: 'food-baverage', component: FoodBaverageComponent},
+  {path: 'foodbaverage', redirectTo: 'food-baverage', pathMatch: 'full'},
   {path: 'lifestyle', component: LifestyleComponent},
   {path: 'offers', component: OffersComponent},
   {path: 'wedding', component: WeddingComponent},
   {path: 'signin', component: SigninComponent},
   {path: 'signup', component: SignupComponent},
+  {path: 'imageslider', component: ImagesliderComponent},
   {path: '', component: HomeComponent}
 
 ];
