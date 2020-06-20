@@ -1,0 +1,11 @@
+@import '~@angular/material/theming';
+
+@mixin navtabs-component-theme($freelifehotel) {
+    
+    $primary : map-get($freelifehotel , primary );
+    $accent : map-get($freelifehotel, accent );
+
+    .navtab-container{
+        background-color: mat-color($freelifehotel-accent);
+    }
+}

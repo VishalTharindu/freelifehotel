@@ -21,8 +21,21 @@ $freelifehotel: mat-light-theme($freelifehotel-primary, $freelifehotel-accent, $
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
+
+@import './app/navigation/navtabs/navtabs.component-theme.scss';
+
 @include angular-material-theme($freelifehotel);
 
-.navtab-container{
-    background-color: mat-color($freelifehotel-accent);
+// Navtabs Componenet theme file
+@include navtabs-component-theme($freelifehotel);
+
+.mat-list-option:hover, 
+.mat-list-option:focus, 
+.mat-nav-list .mat-list-item:hover, 
+.mat-nav-list .mat-list-item:focus, 
+.mat-action-list .mat-list-item:hover, 
+.mat-action-list .mat-list-item:focus{
+    background-color: mat-color($freelifehotel-primary,500);
+    color: mat-color($freelifehotel-accent,50);
 }
+

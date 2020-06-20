@@ -1,0 +1,21 @@
+.navtab-container{
+    padding-left: 18%;
+}
+
+@media screen and (max-width: 768px){
+    .navtab-container{
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .navtab-container{
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .navtab-container{
+        padding-left: 0%;
+    }
+}
