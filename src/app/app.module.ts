@@ -30,6 +30,8 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavLinkComponent } from './navigation/sidenav-link/sidenav-link.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 import { ImagesliderComponent } from './home/imageslider/imageslider.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { IndexcontentComponent } from './food-baverage/indexcontent/indexcontent.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +58,8 @@ import { ImagesliderComponent } from './home/imageslider/imageslider.component';
     HeaderComponent,
     SidenavLinkComponent,
     NavtabsComponent,
-    ImagesliderComponent
+    ImagesliderComponent,
+    IndexcontentComponent
   ],
   imports: [
     BrowserModule,
@@ -64,6 +67,7 @@ import { ImagesliderComponent } from './home/imageslider/imageslider.component';
     BrowserAnimationsModule,
     MeterialModule,
     AppRoutingModule,
+    NgbModule,
   ],
   providers: [
     CourselistService

@@ -3,9 +3,21 @@
     width: 100%;
     /* background: url(/assets/images/hcover2.jpg) no-repeat; */
 }
-h1{
-    text-align: justify;
+
+.foodtext{
+    text-align: right;
+    font-family: 'Pacifico', serif;
+    font-size: 70px;
+    text-shadow: 4px 4px 4px #aaa;
+
 }
+.accomodation{
+    text-align: left;
+    font-family: 'Pacifico', serif;
+    font-size: 70px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
 
 @media screen and (max-width: 768px){
     .img-container{

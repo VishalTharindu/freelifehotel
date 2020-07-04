@@ -10,6 +10,7 @@ import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { HomeComponent } from './home/home.component';
 import { ImagesliderComponent } from './home/imageslider/imageslider.component';
+import { IndexcontentComponent } from './food-baverage/indexcontent/indexcontent.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path: 'signin', component: SigninComponent},
   {path: 'signup', component: SignupComponent},
   {path: 'imageslider', component: ImagesliderComponent},
+  {path: 'indexcontent', component: IndexcontentComponent},
   {path: '', component: HomeComponent}
 
 ];
