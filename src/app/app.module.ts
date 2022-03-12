@@ -2,6 +2,7 @@ import { MeterialModule } from './material.module';
 import { CourselistService } from './courselist.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -62,6 +63,7 @@ import { IndexcontentComponent } from './food-baverage/indexcontent/indexcontent
     IndexcontentComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

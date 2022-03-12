@@ -1,3 +1,4 @@
+import { from } from 'rxjs';
 // tslint:disable-next-line:quotemark
 import { NgModule } from "@angular/core";
 import { MatSliderModule } from '@angular/material/slider';
@@ -9,6 +10,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatListModule} from '@angular/material/list';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {
+    MatFormFieldModule,
+  } from '@angular/material/form-field';
+
+import {MatInputModule} from '@angular/material/input'
+import {MatCheckboxModule} from '@angular/material/checkbox'
 
 
 @NgModule({
@@ -20,7 +27,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
         MatButtonModule,
         MatListModule,
         MatTabsModule,
-        MatGridListModule
+        MatGridListModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatCheckboxModule,
     ],
     exports: [
         MatSliderModule,
@@ -31,7 +41,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
         MatIconModule,
         MatListModule,
         MatTabsModule,
-        MatGridListModule
+        MatGridListModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatCheckboxModule,
     ]
 })
 
