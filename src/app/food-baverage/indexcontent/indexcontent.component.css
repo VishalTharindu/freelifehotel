@@ -1,0 +1,14 @@
+section {
+}
+
+@media screen and (max-width: 995px) {
+  .cardSec {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding-left: 30px;
+  }
+}
